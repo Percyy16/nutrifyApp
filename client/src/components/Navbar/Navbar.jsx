@@ -37,6 +37,12 @@ export const Navbar = () => {
                             <li>
                                 <Link to="/About">About</Link>
                             </li>
+                            <li>
+                                <Link to="/LogIn">LogIn</Link>
+                            </li>
+                            <li>
+                                <Link to="/SignUp">SignUp</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
