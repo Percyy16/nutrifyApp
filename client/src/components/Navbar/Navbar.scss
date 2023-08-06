@@ -76,7 +76,8 @@
     }
 
     .navbar_links ul a {
-      color: #c7ee9d;;
+      color: #c7ee9d;
+      font-weight: bold;
     }
   
     .navbar_links.active {
@@ -91,6 +92,6 @@
   
     .navbar_links ul li {
       margin-right: unset;
-      margin-top: 40px;
+      margin-top: 60px;
     }
   }
