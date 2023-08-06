@@ -6,8 +6,7 @@ import { Home } from "./pages/Home/Home";
 import { FoodDiary } from "./pages/FoodDiary/FoodDiary";
 import { WorkoutPlanner } from "./pages/WorkoutPlanner/WorkoutPlanner";
 import { About } from "./pages/About/About";
-import { LogIn } from "./pages/LogIn/LogIn";
-import { SignUp } from "./pages/SignUp/SignUp";
+import { Account } from "./pages/Account/Account";
 import { Navbar } from './components/Navbar/Navbar';
 
 function App() {
@@ -20,8 +19,7 @@ function App() {
           <Route path="/FoodDiary" element={<FoodDiary />} />
           <Route path="/WorkoutPlanner" element={<WorkoutPlanner />} />
           <Route path="/About" element={<About />} />
-          <Route path="/LogIn" element={<LogIn />} />
-          <Route path="/SignUp" element={<SignUp />} />
+          <Route path="/Account" element={<Account />} />
         </Routes>
       </Router>
     </div>

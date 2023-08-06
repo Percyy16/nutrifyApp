@@ -31,7 +31,7 @@
   }
   
   .navbar_links ul li:not(:last-child) {
-    margin-right: 60px;
+    margin-right: 40px;
   }
   
   .navbar_links ul a {
@@ -40,12 +40,6 @@
     font-weight: 400;
     color: #000000;
     text-decoration: none;
-  }
-  
-  .navbar_links ul a.active {
-    color: #000000;
-    font-weight: 500;
-    position: relative;
   }
   
   .navbar_links ul a.active::after {
@@ -74,11 +68,15 @@
       position: absolute;
       right: 0;
       top: 60px;
-      background-color: #c7ee9d;
+      background-color: rgb(45, 45, 45);
       width: 0px;
       height: calc(100vh - 60px);
       transition: all 0.3s ease-in;
       overflow: hidden;
+    }
+
+    .navbar_links ul a {
+      color: #c7ee9d;;
     }
   
     .navbar_links.active {
@@ -93,6 +91,6 @@
   
     .navbar_links ul li {
       margin-right: unset;
-      margin-top: 22px;
+      margin-top: 40px;
     }
   }
