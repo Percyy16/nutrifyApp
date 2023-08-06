@@ -1,9 +1,41 @@
-.foodDiary_container {
+.foodDiary_container__header {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+
     h1 {
-        color: red;
+        color: #eef6e5;
+    }
+}
+
+.foodDiary_container__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.foodDiary_container__food {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(66, 65, 65);
+    background-color: rgb(54, 54, 54);
+    margin: 10px;
+    border-radius: 10px;
+
+    div p {
+        color: #eef6e5;
+        border-bottom: 1px solid rgb(131, 131, 131);
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    div button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        color: #c7ee9d;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
     }
 }
