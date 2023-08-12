@@ -3,18 +3,12 @@ import "../Home/Home.scss";
 
 export const Home = () => {
     return (
-        <div className="home_container">
-            <div className="home_container__whyUse">
+        <>
+            <div className="home_container__header">
                 <h1>
-                    Why to use Nutrify?
+                    How to use Nutrify?
                 </h1>
-                <p>
-                    Track your daily calories
-                </p>
-                <p>
-                    Schedule your workouts
-                </p>
             </div>
-        </div>
+        </>
     );
 };
